@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip yourfile.zip -d extracted_files/
+      - run: beautysalonlms1 (1).zip -d extracted_files/
       - uses: actions/upload-artifact@v3
         with:
           name: extracted-files
